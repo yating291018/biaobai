@@ -1,0 +1,111 @@
+{
+	"index.html": {
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"images/1.jpg",
+			"css/mui.min.css",
+			"js/jquery3.0.js"
+		],
+		"refer": [
+			"static/main.html",
+			"static/test.html"
+		]
+	},
+	"static/main.html": {
+		"resources": [
+			"images/2.jpg",
+			"images/menus/1.jpg",
+			"css/mui.min.css",
+			"images/menus/2.PNG",
+			"images/menus/3.jpg"
+		],
+		"refer": [
+			"static/firstLook.html",
+			"static/menus/firstLook.html",
+			"static/menus/keep.html",
+			"static/menus/yousmile.html",
+			"static/menus/salary.html"
+		]
+	},
+	"static/firstLook.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/common.js",
+			"images/1.jpg"
+		],
+		"refer": [
+			"static/test2.html"
+		]
+	},
+	"static/test.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"images/2.jpg",
+			"images/menus/1.jpg",
+			"images/1.jpg",
+			"images/menus/2.PNG",
+			"js/common.js"
+		],
+		"refer": [
+			"static/firstLook.html"
+		]
+	},
+	"static/test2.html": {
+		"resources": [
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"static/main1.html": {
+		"resources": [
+			"images/2.jpg",
+			"js/common.js",
+			"images/menus/1.jpg",
+			"js/mui.min.js",
+			"images/1.jpg",
+			"css/mui.min.css",
+			"images/menus/2.PNG"
+		],
+		"refer": [
+			"static/firstLook.html"
+		]
+	},
+	"static/menus/firstLook.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"static/menus/keep.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/zmoon.js",
+			"js/preimg.js"
+		],
+		"refer": [
+			"static/menus/keepdesc.html"
+		]
+	},
+	"static/menus/keepdesc.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"static/menus/yousmile.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"js/zmoon.js",
+			"js/preimg.js",
+			"css/mui.min.css"
+		]
+	},
+	"static/menus/salary.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	}
+}

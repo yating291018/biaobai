@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../../css/mui.min.css" rel="stylesheet" />
+		 
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+	            <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	            <h1 class="mui-title">和你的亲密接触</h1>
+        </header>
+		<ul class="mui-table-view"  style="margin-top:45px">
+			<li class="mui-table-view-cell mui-hidden">cared
+				<div id="M_Toggle" class="mui-switch mui-active">
+					<div class="mui-switch-handle"></div>
+				</div>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a>
+					<img class="mui-media-object mui-pull-right" src="http://dcloudio.github.io/mui/assets/img/shuijiao.jpg">
+					<div class="mui-media-body">
+						幸福
+						<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a>
+					<img class="mui-media-object mui-pull-right" src="http://dcloudio.github.io/mui/assets/img/muwu.jpg">
+					<div class="mui-media-body">
+						木屋
+						<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a>
+					<img class="mui-media-object mui-pull-right" src="http://dcloudio.github.io/mui/assets/img/cbd.jpg">
+					<div class="mui-media-body">
+						CBD
+						<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a>
+					<img class="mui-media-object mui-pull-right" src="http://dcloudio.github.io/mui/assets/img/yuantiao.jpg">
+					<div class="mui-media-body">
+						远眺
+						<p class='mui-ellipsis'>静静的看这个世界，最后终于疯了</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript">
+			  clickdesc();
+			  function  clickdesc(){
+			  	    mui("li").on("tap","a",function(){
+			  	    	  mui.openWindow({
+			  	    	  	  url:"keepdesc.html",
+			  	    	  	  id:"keepdesc.html"
+			  	    	  })
+			  	    })
+			  }
+		</script>
+	</body>
+
+</html>
